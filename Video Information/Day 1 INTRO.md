@@ -1,15 +1,3 @@
-# I M HERE TO SOLVE PROBLEMS and UNDERSTAND FUNDAMENTALS not ....just to learn code cause that's being done by ai. i will fix bugs make code nicer and work and edit things....etc.
-
-I m going to start as A TORTOISE. COMPLETELY FOCUSED not Distracted on ANYTHING and Just Working. I cared too much about results, THOUGHT TOO MUCH about Things I CANT CONTROL. Even Thinking Itself for even 1 sec makes Brain ANXIOUS and I did it for 7 years. 
-
-TORTOISEEEEEEE.
-
-Ekdam Focused and In Decent Pace Understanding Fundamentals.  STOP THINKING ABOUT THINGS I CANT CONTROL. I MEAN IT. STOP EVEN THINKING. Understand Let Go Illusion of Control Trying to Get those Results. Breathe and Focus and Work.
-
-First Page of this COURSE. ![[Pasted image 20251212213535.png]]
-fig: it's on obsidian.
-
-
 # DAY 1
 
 ## 1st video - Lessons

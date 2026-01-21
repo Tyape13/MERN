@@ -20,3 +20,25 @@ i haven't seen video it's probably "line" dinxa i think.
 ### 5 - Sup and Sub tags
 this is sup and sub tag. tyo xa ni CO2 garda 2 tala. and x2 yaniki x ko square.
 sub-script and super script.
+
+### 7 - Semantic Tags and Non Semantic Tags
+semantics tags - when we know what they are used for. tags - header, nav, main, article, section, aside, footer.
+non semantic tags - just div and span. we don't know it's functionality by name. just used for grouping things.
+
+### 8 - Semantic Tags Only
+every tags explained in details. like aside tag have things that aren't directly related.
+
+### 9 - practice questions
+use section, header, footer with D2 Portfolio.html.
+
+### 10 - HTML Entities
+remember what is &lt;, &gt;, &amp;, &copy;, &trade;, &reg;, &yen;, &euro;, &pound;, &cent;, &times;, &divide;, &nbsp;, &ensp;, &emsp;, &thinsp;, &mdash;, &ndash;, &lsquo;, &rsquo;, &ldquo;, &rdquo;, &hellip;, &trade;, &reg;, &yen;, &euro;, &pound;, &cent;, &times;, &divide;, &nbsp;, &ensp;, &emsp;, &thinsp;, &mdash;, &ndash;, &lsquo;, &rsquo;, &ldquo;, &rdquo;, &hellip;, 
+Behenchod i don't know what all this do but i know &lt;, &gt;, &nbsp;. that's it.
+some other Entities: quot, hearts.
+
+### 11 - practice questions
+use html Entities like &amp; makes "&" symbol for some reason. bro i can even USE "&" ALONE. 
+
+### 12 - Emmet.io
+this would be necessary if i was writing code myself. No Need this just helps you write code faster alot of Boiler code Shortcuts have from this website. for html stuff.
+
