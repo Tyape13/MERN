@@ -72,3 +72,21 @@ red
 in hex code ma 
 
 ### 10 - Text Properties
+text-align: center;
+font-weight: bold;
+text-decoration: underline;
+line-height: 2px;
+letter-spacing: 2px;
+font-size: xx-large;
+---
+Parent Element Bare Concepts. like document whole page ko right ma haina Parent Element ko relative ma things works. RELATIVE WORKING MECHANISMMMMMMMMMMMMM MMMMM AAPAPAPAPAPAPAP MMMMMM APAPAPPAPAPAP MMMMMMMMMMMMMMMMM.
+text-align can be right but "width:50%" makes it look like it's on center
+"border:solid" makes us see things.
+
+text-align: left/start;
+text-align: right/end; for arabic languages.
+center - center ma more text focused.
+justify - this dynamically puts spaces in middle.
+
+
+### 11 - 
