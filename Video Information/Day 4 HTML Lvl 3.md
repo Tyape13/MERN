@@ -43,4 +43,32 @@ if Method GET - url has name=value
 if Method POST - it's Secret. i won't tell you anything bro.
 I have one great example for Input Name Attribute in D4 Practice.html
 
-###  
+###  10 - Practice Questions
+use form, and when i write anything in input tag and click submit
+i should go to google searching that thing page. 
+
+### 11 - Checkbox Attribute
+just Input ko Attribute - Checkbox we can also put
+<input type="checkbox" name="checkbox_name" checked />
+this will automatically check initially.
+when it's on in Url it goes for `name=checkbox_name&checked=on`
+LABEL----- ma 'for' use garyo vane tyo label click garda.. teai for wala ko check hunxa, we use id value in place for 'for' attribute.
+
+
+### 12 - Radio Attribute
+I know, male / female. one or another.
+
+### 13 - SELECT Tag as DropDown.
+I know, we use 'select' and 'option' for dropdown.
+i could put 'selected' in option tag itself. like checked in checkbox.
+
+### 14 - 'Range' Attribute
+- range, min, max, step, value. attributes
+all i need to know are this to be in side Input Tag.
+
+### 15 - 'TEXTAREA' Tag
+for feedback, review, descriptions haru input lina ko lagi.
+- rows, cols. attributes
+
+### 16 - Practice Questions
+yeah, i wouldn't have used DIV so next time remember. that.
