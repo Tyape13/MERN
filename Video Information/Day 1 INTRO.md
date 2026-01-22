@@ -8,6 +8,7 @@
 - FACE PROBLEMS HEAD ON.        ITS ALRIGHT.             I AM WITH ME
 Other things to remember. 
 Stackover flow - everyone faces problems and search google 
+
 ## 2nd - Internet Stuff
 Internet - wires that connects one computer with another network in GLOBAL LARGEST SCALE. JUST FUCKING WIRES. 
 Client and Server bare. anyone requesting data is client and server try to run 24/7. 
@@ -15,10 +16,8 @@ talking about ip address as normal Analogy.
 Like address of LAND in nepal as like zipal code and each place has unique address..... 
 DNS is like old times BOOK of Phone Number Collection or Address Book but Digital.
 
-ITS all About Peoplessssss. Like We could use 192.168.101.1 or something random string of number but stilllll we have DNS .......that Helps People. 
-It's All about People. Just Learn no Need to be Egoistic or Jelous with Anyone. 
-JUST LET THINGS GO... I know i feel sad right now. but it's Okay I m with me and That's Enough.
-I was searching for Care or praise form others cause i didn't gave it to myself...... I was lacking it myself I was in DOUBT. Sad....... Breathe and Let's Work.
+Lol nothing. i was too honest in this part cause i didn't thought i would put this online. haah you wouldn't know anything cause it's deleted. who am i even talking to. sad.... nothing bro me gone.
+
 ## 3rd - Web Dev
 - How website are build. internal workings. we requesting by putting website name and it request data then it Gives us CODE then that code is run by browser.
 - bundle of html css js. yesko bundle RESPONSE dinxa.

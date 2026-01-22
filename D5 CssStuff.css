@@ -1,0 +1,4 @@
+h1{ /* this is selector that we use to select EVERY OTHER h1 Tag*/
+    color:red;
+    /* property: value */
+}
