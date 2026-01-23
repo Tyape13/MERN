@@ -16,6 +16,8 @@ h2{
     text-align: right;
     border: solid;
     width: 50%;
-/* I need to Understand and play around this things */
+    text-decoration: teal double underline;
+    font-family: Arial, Helvetica, sans-serif;
+    /* I need to Understand and play around this things */
 }
 

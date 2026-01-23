@@ -89,4 +89,48 @@ center - center ma more text focused.
 justify - this dynamically puts spaces in middle.
 
 
-### 11 - 
+### 11 - Font Weight
+I See. 
+I don't need to write stuff i just need to know what this does and 
+I know how structure works. that's it. 
+- range goes from 100-900
+text-decoration: underline, overline, line-through.
+line-through is like DISCOUNT Price being cut.
+line, dotted, double and color can also be changed.
+text-decoration:none; 
+we changed any anchor tag ko default underline to be gone.
+
+### 12 - line-height or letter-spacing
+line-height:normal;
+line-height:2.5; //2.5 * normal
+yeahhhhh!!! 
+
+### 13 - UNITS in CSS
+MOST IMPORTANT cause we learn about units and how it works.
+
+Absolute   |    Relative
+px         |    %
+pt         |    em
+pc         |    rem
+cm         |    ch
+mm         |    vh
+in         |    vw + many more
+
+96px = 1inch
+72pt = 1in
+12pt = 1 pc
+We use 'px' alot so Remember PX.
+
+%,em, rem, px. 
+knowing this is enough.
+
+px can't be on responsive website.
+we use em, rem or % on mobile screen and desktop texts.
+
+### 14 - font-family
+NICE.
+font ko style.
+arial, times new roman.
+we can put multiple font-family so it goes through list so browser goes to backup font if no support.
+
+### 15 - 
