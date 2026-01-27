@@ -131,11 +131,41 @@ then it's 0 0 2. and class ko is 0 1 0 so 10 is more than 2.
 :nth-of-type
 - checked is for like radio or checkbox ones.
 
+### 14 - Pseudo Elements
+::first-letter
+::first-line
+::selection
+aru ni k k hola idc bro.
 
-### 14 - Css Cascading StyleSheets
+### 15 - Css Cascading StyleSheets
 cascade is algorithm, to select which order ma properties ko changes are applied.
 rule:
-if h2 {
-    property: value;
-    
+- Last one is applied if properties defined for same Element or something. Even Whole File itself, like `<script rel='stylesheet' href='style.css'>` won't be valued if `<script rel='stylesheet' href="style2.css">` has so many same Elements ko properties defined here. 
+- talking about Specificity: 3 places value calculated to see which one has more priority to be applied the property or something. 
+id      class/attribute/pseudo-class      element/pseudo-element
+id > class > tags(elements)
+- IMPORTANT: INLINE STYLING HAS THE MOST PRIORITY. so if something not write with css files then directly go to HTML file and make Necessary Changes.
+[Note:] but we can't change it through css files.
+
+### 16 - Practice Question
+There are multiple ways to apply for same Element.
+
+
+### 17 - !important
+I think i just used 'important' only somewhere like idiot.
+so it's about using it as "!important"
+Yeahhhh
+
+### 18 - Inheritance
+If we change property of parent, it will affect every other childs inside it. 
+like div ko background color changed then... other <p> <inputs> saab ko change hunxa.
+- input ko box itself doesn't inherit but we can do it by saying
+input {
+    background-color: inherit;
 }
+this makes it inherit the bkg color of div or anything above it to come inside writing input box itself. 
+
+- Yeah We need to be able to Change things in browser itself then make changes in css file. I KNOW BRO.
+
+- Cooolers.co Vanne website bate we can see Which Color Pallets would look great on our website. 
+
