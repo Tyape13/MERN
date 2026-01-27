@@ -169,3 +169,4 @@ this makes it inherit the bkg color of div or anything above it to come inside w
 
 - Cooolers.co Vanne website bate we can see Which Color Pallets would look great on our website. 
 
+- mycolor.space ho ki k ho idk, it is also great website. 
