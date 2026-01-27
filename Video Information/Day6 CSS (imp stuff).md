@@ -37,7 +37,7 @@ id name we put is case-sensitive so value of id attribute, we have on html tag n
     color: white;
 }
 
-Brooo Yetii ko lagi maile sala ai lai harrase nai gareko xu mula kassammm. sale lai runai lako thyo ai testo gali garya thy maile. lol.
+Brooo Yetii ko lagi maile sala ai lai harrase nai gareko xu mula kassammm.
 
 ---
 
@@ -95,8 +95,47 @@ p + h3 {
 }
 same sibling huda.... Hmmmm. like every h3 after p will get affected. 
 not if div aayera different level ma shift huda stuff. idk bro i know sakyo kurai.
+- h3 should be followed by p in html file. 
 
-### 10 - aaba Tomorrow 
-idk tomorrow other work to do so .. i will have 2 hrs or 1 hrs free time probably.
+### 10 - Child Combinator
+JUST ONLY - directly under wala. just 1 level down directly only affected. 
+span > button {
+    property: value;
+}
+this symbol ">"
 
-bie.
+### 11 - Attribute Selector
+Html_Tag[attr="value"] {
+    property: value;
+}
+i know this one. cause i have seen this before.
+This is UNIVERSAL SO CLOSE EYES AND REMEMBER and RECALL. 
+nice.
+
+### 12 - Practice Questions
+Imp xa.
+when h1, #id, .class
+all have different values for same element. WHICH ONE AFFECTS that Tag.
+OHHHHH. it's not Tag like H1. cause it's Broad rather "ID" cause it's going deep individual identification.
+id > class > element
+- - - 
+what does this mean if we using 
+div p {property:value;}
+then it's 0 0 2. and class ko is 0 1 0 so 10 is more than 2. 
+
+
+### 13 - Pseudo Class
+:hover
+:active
+:checked
+:nth-of-type
+- checked is for like radio or checkbox ones.
+
+
+### 14 - Css Cascading StyleSheets
+cascade is algorithm, to select which order ma properties ko changes are applied.
+rule:
+if h2 {
+    property: value;
+    
+}

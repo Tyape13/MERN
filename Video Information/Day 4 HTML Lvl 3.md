@@ -57,6 +57,7 @@ LABEL----- ma 'for' use garyo vane tyo label click garda.. teai for wala ko chec
 
 ### 12 - Radio Attribute
 I know, male / female. one or another.
+we need NAME SAME. other wise it won't recognize that male and female is supposed to be one or other. like gender huna parxa name ma.
 
 ### 13 - SELECT Tag as DropDown.
 I know, we use 'select' and 'option' for dropdown.
