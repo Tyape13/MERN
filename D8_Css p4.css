@@ -1,0 +1,26 @@
+#first{
+    background-color: lightblue;
+    height: 400px;
+    width: 400px;
+    border: 2px solid black;
+    transition: margin-top 1s ease-in-out 0.4s;
+    /* test one at a time, idk how to make both work */
+    margin: 20px auto;
+
+}
+
+#first:hover{
+    background-color: red;
+    margin-top: 300px;
+    border-radius: 50%;
+}
+
+#transforming {
+    background-color: lightblue;
+    height: 400px;
+    width: 400px;
+    border: 2px solid black;
+    transition: border-radius 1s ease-in-out 0.4s;
+    margin: 20px auto;
+}
+
