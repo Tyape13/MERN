@@ -73,4 +73,12 @@ Top, Right, Bottom, Left.
 i think we used this in that pet stuff. idk
 
 Static - Default value
- 
+I can Play Around with these things. 
+"Sticky" ho ki k pani xa. Property or something
+
+### 11 - Simple Smiley Face
+Just Some Example Haru, Nothing else. 
+
+
+This is It. 
+Lets' Move On. I M FUCKING SERIOUSLY FOCUSED RIGHT NOW. I need to LOCK THE FUCK IN. Let's Go Brother. I KNOW.
