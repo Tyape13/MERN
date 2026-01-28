@@ -55,4 +55,35 @@ Some Interesting Thing:
 ### 10 - Something Random
 idk bro pdf thyo
 
-### 11 - Inline Block
+### 11 - Inline-Block
+Combination of Both. 
+This is how each products are shown. 
+their margin and paddings can be affected anywhere, and they act like inline so they are right beside each other. 
+
+Important: We can't make Div Block, "Inline" since it will break cause nothing is applied into that div element now that it's inline, so we use 
+Inline-Block Element. Bro.....it Gliches and JPT 3ta Lines Dekahuxa kina ho.
+
+This will apply those other properties that started to glitch.
+#third{
+    display:none;
+}
+to not show that element, like magic. maybe we can control it like when pc css vs mobile css different things showing.
+
+### 12 - Relative Units (percentage)
+- Size relative to element's parent tag.
+[Good Information]
+
+
+### 13 - em/rem (RELATIVE units ho)
+- Everything about "EM" (use this more often cause it's changes relatively when other stuff of same element changes)
+when using typographical properties like font-size, weight, it's Relative to Parent.
+but when element of itself like width, padding, margin, it's alone. 
+remember example of 2 divs one outside parent, another is child inside div. 
+when we change the fontsize of inner to 2em, then if outside font is 20px then inner is 40px. 
+but when we used different property like padding and used 1em....... then.............so it's relative to element itself. so normally zati xa or font-size xa vane mathi tira.. tesko relative. aafnai properties ko relative... this makes any property multiply.
+!REMINDER: SNOWBALL DRAWBACK. (how small snowball grows down...)
+
+- Abuot REM (Root Em)
+We use this Most cause no Drawbacks like Snowball of em. and everything else same
+Root Element ko Relative Works. Not "Relative-Em" but "Root-Em"
+
