@@ -6,6 +6,7 @@
     transition: margin-top 1s ease-in-out 0.4s;
     /* test one at a time, idk how to make both work */
     margin: 20px auto;
+    display:none;
 
 }
 
@@ -22,5 +23,27 @@
     border: 2px solid black;
     transition: border-radius 1s ease-in-out 0.4s;
     margin: 20px auto;
+    display:none;
 }
 
+.d9_practice {
+    height: 400px;
+    width: 900px;
+    background-color: pink;
+    text-align: left; 
+    /* Trying to put div green box left aligned didn't work but looking at parent css worked */
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.d9_practice > div {
+    height: 100px;
+    width: 100px;
+    background-color: lightgreen;
+    border: 2px solid black;
+    display: flex;
+    /* block or inline or inline-block but we using "Flex" now. display:flex; */
+    transition: transform 0.5s ease-in-out;
+}
+
+/* Nothing Bro Practice Practice Priacalksdjf;lasdhf;oiasdhfbasd  */
