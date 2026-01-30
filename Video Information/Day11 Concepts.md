@@ -26,4 +26,19 @@ another website:
 we go to cdnjs.com then there is font-awesome ko icons we have to provide in link of head tag of html.
 then use as it's said.
 
-### 5 - 
+### 5 - pdf xa
+
+### 6 - Project Started.
+I will write great concepts only here.
+ 
+VIEWPORT- this is the concept '100vh' i mean first hero section of website filling just viewport only. those crazy backgroun images filling just viewport with this is amazing.
+background: url('hehehaha.png');
+height: 100vh;
+background-size:cover;
+
+### 7 - some examples
+...
+
+### 8 - Sidebar Menu
+left: -350px; // this is important which makes the sidebar hidden from screen unless we click.
+
