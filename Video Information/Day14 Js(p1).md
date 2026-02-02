@@ -117,6 +117,17 @@ name[2];
 r 
 this will get printed. 
 it starts from 0
+so it's always name[name.length-1]
+cause name.length ko index value ma nothing exists.
+newstring = name + 1;
+//this works for some reason. we can add "string" + 1234 to make it "string1234"
+I see why TS Exists. stupid JS
+
+### 19 - null & undefined
+undefined has no value or wrong value. it's just "i don't know".
+
+null is intentionally put as ABSENCE OF SOME VALUE. We put it When Even we don't know what value will be there. 
+IDK BRO.
 
 
-### 19 - 
+### 20 - Practice Question
