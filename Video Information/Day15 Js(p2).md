@@ -162,5 +162,5 @@ but using like:
 `console.warn("This is warning Message");`
 
 Prompts has input box:
-`prompt("Enter your name");`
+`let naem = prompt("Enter your name");`
 this looks so bad. dog shit.
