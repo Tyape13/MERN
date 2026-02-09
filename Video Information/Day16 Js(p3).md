@@ -57,3 +57,29 @@ sigh*
 whateva
 
 ### 10 - Array (Data Structure)
+array haru ko bare ma so many things.
+
+11 12 13 tira. 
+concatenation and Reverse haru chalerako xa
+
+### 22 - Arrays References
+This means, ADDRESS IN MEMORY. remembered concept in python where array each elements have first address then next element have just 1 number change in address.
+"name" == "name"
+true
+[1] == [1]
+false
+cause array address is on different place. array elements can be same but whole array is different so we need to compare each elements.
+let arr = [1,2,3];
+let arrCopy = arr;
+now if we change arrCopy then it will change arr also.
+cause Both Variables pointing to same address array.
+
+### 23 - constant array
+const arr = [1,2,3];
+now we can change and update array.
+BUT NOT AS WHOLE, like we can't assign different array in this variable of this array.
+but we can update re.
+cause when we assign completely different array it changes the whole adress i think.
+
+### 24 - Nested Arrays
+yes exactly what i think
