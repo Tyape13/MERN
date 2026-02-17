@@ -2,7 +2,7 @@ Just 5 days left to complete this. I MEAN IT.
 I need to finish 6 days videos in 1 day.
 Ok.
 
-### 1 -  forEach
+### 1 -  forEach (decent Fundamental)
 arr.forEach(function Definition or Name);
 definition matlab function(arrayElement){
     // we didnt call but definition.
@@ -13,7 +13,7 @@ arr.forEach(function(el){
     console.log(el);
 }); 
 
-### 2 - Map Function (Learn to Be Familiar with this cause really great Function)
+### 2 - Map Function (Important) (Learn to Be Familiar with this cause really great Function)
 same thing. 
 but we need to return value inside function
 and save gareko variable ma it saves each updated element after calculations.
@@ -65,7 +65,7 @@ we return max value and compare with new value that comes in 'el' parameter.
 
 ### 6 - P Que
 
-### 7 - Default parameters
+### 7 - Default parameters (i kno)
 same concept and similar rules. 
 rule: if we have default value in first parameter then second parameter must also have a default value
 or just put parameters with default values later.
@@ -78,7 +78,7 @@ sum(2); // b is default by 3
 
 
 
-### 8 - spread
+### 8 - spread (Core Fundamental)
 to spread use '...' - 3 dots. 
 it gives us individual items 
 
@@ -99,11 +99,12 @@ let newArr = [...arr];
 
 
 
-### 10 - Spread with Objects Literals (we will get those properties to be passed on directly as parameters)
+### 10 - Spread with Objects Literals (decent fundamental)
+(we will get those properties to be passed on directly as parameters)
 yeah
 
 
-### 11 - Rest (3dots has another function)
+### 11 - Rest (3dots has another function) (4star Fundamental)
 when using 3dots as parameters name, it can take infinite arguments in function.
 Example:
 function herohonda(...arr){
@@ -115,7 +116,7 @@ function herohonda(...arr){
 }
 
 
-### 12 - Destructuring Array.
+### 12 - Destructuring Array. (decent Fundamental)
 destructuring garda corresponding index ko value will be saved n no error.
 
 Example:
@@ -125,7 +126,7 @@ let [winner, runnerup, secondRunnerUp] = names;
 // and printing their names will give the values from corresponding index.
 
 
-### 13 - Destructuring Objects
+### 13 - Destructuring Objects (d F)
 let newObject = {
     name: "hero",
     last: 'honda',
@@ -136,3 +137,35 @@ let {name, last} = newObject; // this will create new variable in global scope a
 let {name: nae} = newObject; // ulto xa concept, variable will be nae, searching query is name in newObject
 let {password: pass = "hero"} // even though we declared hero as new value but newObject kai value will be saved. but if there is no password in newObject then pass vanne new variable ma "hero" value will be saved.
 
+### 14 - Adding Element on Page (IMPORTANT CONCEPT)
+This is Really Important cause in JSX or REACT i have seem that main index.html have nothing and everything is added from other jsx or tsx files or idk react files. 
+
+document.createElement('p');
+.appendChild(element);      - this will insert/append at last of any selected object.
+.append(element);               - we can append "whole new Element" or just "Normal Texts" at last.
+.prepend(element);                  - adding at first. not last.
+.insertAdjacent(position, element); - (beforebegin, afterbegin, beforeend, afterend) position  
+
+Example:
+let newDiv = document.creatElement('div');
+console.div(newDiv); // even though it's made but it's not added into html
+let mainBody = document.querySelector('body');
+mainBody.append(newDiv); // newDiv will be added last in the body.
+
+
+### 15 - Removing Elements
+.removeChild(element)   - intuitive
+.remove(element)        - idk bro.
+
+i don't need to explain right that we putting element Object. 
+
+Example: 
+body.removeChild(btn);
+btn.remove()
+
+
+### 16 - Practice Que
+just practice stuff
+
+
+done.
