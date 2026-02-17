@@ -129,4 +129,36 @@ multiple huda, array
 parent is only 1, so it might be just directly Object.
 
 
-### 14 - 
+
+### 14 - Adding Element on Page (IMPORTANT CONCEPT)
+This is Really Important cause in JSX or REACT i have seem that main index.html have nothing and everything is added from other jsx or tsx files or idk react files. 
+
+document.createElement('p');
+.appendChild(element);      - this will insert/append at last of any selected object.
+.append(element);               - we can append "whole new Element" or just "Normal Texts" at last.
+.prepend(element);                  - adding at first. not last.
+.insertAdjacent(position, element); - (beforebegin, afterbegin, beforeend, afterend) position  
+
+Example:
+let newDiv = document.creatElement('div');
+console.div(newDiv); // even though it's made but it's not added into html
+let mainBody = document.querySelector('body');
+mainBody.append(newDiv); // newDiv will be added last in the body.
+
+
+### 15 - Removing Elements
+.removeChild(element)   - intuitive
+.remove(element)        - idk bro.
+
+i don't need to explain right that we putting element Object. 
+
+Example: 
+body.removeChild(btn);
+btn.remove()
+
+
+### 16 - Practice Que
+just practice stuff
+
+
+done.
