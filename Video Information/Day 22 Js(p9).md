@@ -1,8 +1,4 @@
 Dom Related Stuff. 
-[Secret: even if i failed learning 6 days worth of knowledge, my Methods would have not failed me.
-it's not actually failure but it looks like failure. 
-Cause I don't fail, I NEVER FAIL Cause I don't QUIT. 
-MY METHODS FAILED ME TILL NOW. AND I M CHANGING EVERYTHING. I KNOW. ]
 
 ### 1 - Intro
 we can access DOM in js as it's a tree with hierarcy cause html ma we have implemented in heirarchical way. so it's easier for us to interact and change things in this DOCUMENT.
