@@ -53,5 +53,67 @@ like:
 setTimeout, HMMM it takes Callback function and it runs after some time while OTHER ARE RUNNING. 
 setTimeout is run by browser that is made from C++, and C++ is Multithreaded Language and they can run.
 
+// SYNCHRONOUS
+Js is Synchronous, which mean it goes lines by line and No Multi Threading
 
-### 5 - 
+// Asynchronous
+Using setTimeout Functions zasto makes Js, ASYNCHRONOUS. 
+Multi Threading vayeko is Asynchronous
+
+
+
+### 5 - Callback Hell (Important)
+We need to know this Concept.
+
+we can't always know previous response kati bela aauxa, so for that we can't always Think of Time ki 1 sec ma yo 2 sec ma tyo.
+NO
+if one gets executed then it should trigger another Multithread type await. HMMM AWAIT.
+idk if learning that right now. 
+
+CALLBACK NESTING is called CALLBACK HELL.
+
+code below:
+
+function changeColor(color, delay, nextColor){
+    setTimeout(()=>{
+        h1.style.backgroundColor = color;
+    },delay);
+    if (nextColor) nextColor();
+}
+
+changeColor("red",1000, ()=>{
+    changeColor("blue",1000, () => {
+        changeColor("pink", 1000, ()=> {
+            changeColor("yellow", 1000);
+        });
+    });
+})
+
+// this will get so much complex afterwards
+
+that's why we USE.
+'promises'
+'async'
+'await'
+nice nice nice nice. i was telling about this. 
+
+
+### 6 - Setting up for Promises
+The promise object represents the eventual completition (or failure) of an asynchronous operation and it's resulting value.
+
+showing some random database saving and not saving situations with CALLBACK HELL.
+
+
+### 7 - Learning to use Promises
+it's Object in Js.
+We did Nesting Callback cause Functions Interdependent on one another. 
+like if internet speed was good then only it would save then we could save second Data too but if failed in middle then other will cutoff stuff like those. 
+
+as in Promise, we don't know if it will complete or Fail. We don't know brother. and hating yourself LIKE A FUCKING IDIOT cause YOU THOUGHT YOU FAILED and NOT FORGIVING YOURSELF is JUST STUPID. I DIDNT FAIL. I NEVER FAIL. Cause I ME SAMEER NEVER GAVE UP..... MY METHODS FAILED ME. at least i can forgive myself and Work without Worries and Hatred. ok off topic but..whatever.
+
+Ok back on track.
+and Result of what happend will be stored in Promise Object.
+Promise Object have 2 things: resolve (success)    &   reject (failure)
+
+Example Code:
+// Voli
