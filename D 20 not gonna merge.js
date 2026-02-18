@@ -97,11 +97,14 @@ const student = {
     name: "Herohonda",
     marks: 95,
     prop: this, // it has nothing just {} for some reason. idk it was supposed to give global window as value
+    // global Scope
+
     getName: function(){ 
         console.log(this);
         return this.name; // this refers to Student Object
     },
-    getMarks: ()=> {
+    getMarks: ()=> { // PARENT SCOPE OF ARROW FUNCTION IS GLOBAL SCOPE, so 'this' will refer to global scope's 'this' which is {} or window.
+
         console.log(this); // this gave {} for some reason
         return this.name; // this refers to undefined cause idk
     },
@@ -120,7 +123,6 @@ console.log("getNothing:");
 console.log(student.getNothin());
 console.log('-----------------------------------------');
 // LEMME EXPLAIN KIDDO:
-
 // Explanation starts here. 
 // 'func' called as -> "obj.func" like -> student.getName() so -> 'this'='student'
 
@@ -138,8 +140,6 @@ console.log('-----------------------------------------');
 // let's try this theory.
 
 
-
-
 // theory trying.
 const megaChadParent = {
     ArrowMan: (func) => {  // ← Arrow function defined here
@@ -153,3 +153,53 @@ const kidArrow = () => {   // ← Arrow function defined in GLOBAL scope
 
 
 megaChadParent.ArrowMan(kidArrow); // If it was supposed to be lexical it should have printed MegaChadParent According to my Theory but it's going directly to windows always for some reason. Bruh.
+
+
+
+
+/// The Theory was Wrong. I REPEAT THE THEORY WAS WRONG. 
+/// It's about Where the ARROW FUNCTION IS DEFINED at that time and not called from or outside function calling inside func.
+
+const obj = {
+    name: "Parent",
+    
+    // Regular method
+    regularMethod: function() {
+        console.log(this.name); // "Parent"
+        
+        const arrowInside = () => {
+            console.log(this.name); // "Parent" — captured from parent function!
+        };
+        arrowInside();
+    },
+    
+    // Arrow method (bad idea)
+    arrowMethod: () => {
+        console.log(this.name); // undefined — captured global 'this'
+    }
+};
+
+obj.regularMethod();  // "Parent", "Parent"
+obj.arrowMethod();    // undefined
+
+
+// There is no Advantage of using this in arrow function cause we can't access properties of object. 
+// I think Scope as What part does this Code Affects or Covers. I think.
+
+// I Still don't get this 'THIS' but i will see more examples then understand it.
+// cause new example shows that setTimeout is also function and it's scope and stuff and me confused.
+
+const stdLonda = {
+    name: "herhonda",
+    whateva: this, // this referes to windows cause we not using any normal/arrow function so this is just like printing this in global scope itself. 
+    newFunc(){
+        setTimeout(function(){
+            console.log(this); // this will refer to windows object cause it's normal function and SetTimeout is also function and it's scope is global scope so this will refer to windows object.
+    },2000)
+    },
+    anotherFunc(){
+        setTimeout(() => {
+            console.log(this); // this will refer to stdLonda object cause it's arrow function and it will take parent scope's 'this' which is stdLonda object. but scope of anotherFunc... I still don't get it bro
+        },2000);
+    }
+}

@@ -109,7 +109,7 @@ it's Object in Js.
 We did Nesting Callback cause Functions Interdependent on one another. 
 like if internet speed was good then only it would save then we could save second Data too but if failed in middle then other will cutoff stuff like those. 
 
-as in Promise, we don't know if it will complete or Fail. We don't know brother. and hating yourself LIKE A FUCKING IDIOT cause YOU THOUGHT YOU FAILED and NOT FORGIVING YOURSELF is JUST STUPID. I DIDNT FAIL. I NEVER FAIL. Cause I ME SAMEER NEVER GAVE UP..... MY METHODS FAILED ME. at least i can forgive myself and Work without Worries and Hatred. ok off topic but..whatever.
+as in Promise, we don't know if it will complete or Fail. We don't know brother. yeahhhhh... somethign something.
 
 Ok back on track.
 and Result of what happend will be stored in Promise Object.
