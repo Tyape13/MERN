@@ -115,5 +115,67 @@ Ok back on track.
 and Result of what happend will be stored in Promise Object.
 Promise Object have 2 things: resolve (success)    &   reject (failure)
 
+I know that promise makes us not Fall in Callback Hell,
+
 Example Code:
-// Voli
+
+function savetoDb(data){
+    return new Promise((success,failure)=>{
+        let internetSpeed = Math.floor(Math.random() * 10) + 1;
+        if (internetSpeed > 4){
+            success("success vayo. it's Alright, No Big Deal Sala Emotion nahal Mug");
+        }else {
+            failure("failure vo dxt. it's Alright. We find another Method "); // this one gives us error in return.
+        }
+
+    });
+}
+
+
+### 8 - 'then' and 'catch' methods
+since Promise is Object, so then and catch are methods that can be used.
+
+let request = savetoDbPromise("apnacollege");
+request.then(()=>{
+    console.log('promise resolved');
+}).catch(()=>{
+    console.log('promise rejected');
+})
+
+// this is how we use then and catch.
+we dont' even need to create a new object rather just directly function ma then and catch use garne.
+
+
+### 9 - Promises Chaining
+How How How.
+
+Example:
+savetoDbPromise("herohonda").then( ()=>{
+    console.log("promise resolved");
+    return savetoDbPromise("Hello World");
+}).then(()=>{
+    console.log("Promise2 resolved"); /// when first promise is success then only it goes to next promise here.
+    return savetoDbPromise("third One");  // 
+}).then(()=>{
+    console.log("third Data Saved");
+}).catch(()=>{
+    console.log("Some promise rejected");
+});
+
+// this is really nice.
+///  I SEE.
+
+### 10 - result and error comes.
+
+.then((result)=>{
+    console.log(result);
+}).catch((error) =>{
+    console.log(error);
+})
+
+this is the only concept that's here.
+
+
+### 11 - First color Change Example ko Callback Hell wala Method change to PROMISES
+nice.
+
