@@ -25,3 +25,4 @@ you get what i m saying, i m stupid. yeah.
 
 
 ### I WILL BE DOING than writing cause now it's not fundamental now it's training.
+I don't play to win, I Understand the Game and Train to DOMINATE the GAME. not player.
