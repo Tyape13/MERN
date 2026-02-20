@@ -140,3 +140,14 @@ import {sum, pi} from "./math.js";
 console.log(sum(1,2)); // can't do this
 but we need to manually put
 "type": "module" in package.json file in main folder. 
+
+
+when using module.exports, we have to initialize whole 1000 lines of code, while 
+when we use import then we can access specific functions of that code. 
+
+it is said that module.exports is synchronous 
+but 
+import and 'export' keyword is asynchronous function
+
+i don't remember but ek choti the packages didn't activated or imported and codes below ran and stuff like those, are called BUGS.
+
