@@ -117,3 +117,19 @@ keys are special columns, if it's primary key, then it becomes unique and not nu
 
 "Foreign key are column in one table that references to primary key of another table."
 we are linking 2 tables. 
+
+
+### 13 - primary key and foreign key 
+brief conceptual info
+
+### 14 - how to insert data into table
+i have written that above. 
+
+### 15 - Select command
+It selects and Shows data from database. 
+
+SELECT col1, col2 FROM table_name;
+
+SELECT * FROM table_name;
+
+that's it.
