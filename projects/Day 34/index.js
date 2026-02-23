@@ -3,7 +3,7 @@ const app = express();
 const port = 3000;
 const path = require("path");
 
-// i need to restart the server every time.
+// This is the Main Server File, domain.com/ is pointed to index.ejs from this server js file.
 
 app.use(express.urlencoded({extended: true}));
 // express will understand every request using this code
@@ -19,20 +19,24 @@ app.use(express.static(path.join(__dirname, "public")));
 
 
 app.get("/posts/new", (req, res) =>{
-    res.render("new.ejs")
+    res.render("new.ejs");
+    console.log()
 });
 
 
 let posts = [
-    {
+    {   
+        id: 'r2',
         username: "herohonda",
         content: "I love coding"
     }, 
-    {
+    {   
+        id:'3m',
         username: "noherhonda",
         content: "hard work is important to make progress towards things you want you fucking idiot"
     },
     {
+        id:"2b",
         username: "heroMan",
         content: "Tailung, it's Understandable. Sameer, I understand Me, I understand hatred and sadness it's alright i work now."
     }
@@ -40,6 +44,21 @@ let posts = [
 
 app.get("/posts", (req, res)=>{
     res.render("index.ejs", {posts});
+})
+
+
+app.post("/posts", (req, res) =>{
+    let {username, content} = req.body;
+    posts.push({username, content});
+    // res.send("posted, now use get request(refreshing page) will give us. updated content");
+    res.redirect('/posts');
+})
+
+app.get("/posts/:id", (req, res) =>{
+    let{id} = req.params;
+    let pp = posts.find((p) => id === p.id);
+    console.log(pp, id);
+    res.render("show.ejs",{username: pp.username, content: pp.content});    
 })
 
 app.get('/', (req, res) =>{
