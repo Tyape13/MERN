@@ -31,3 +31,12 @@ DELETE: /posts/:id - to delete specific post
 we done some progress in project
 
 ### 4 - Index Route
+we put NOUN in routes than VERBS(action word). like post and not view_posts. 
+i had to "npm install ejs". 
+
+
+### 5 - 
+Before Writing Code, we usually make Architecture, posts/new haru zasto use garera for one action,
+and different path for different paths.
+
+### 6 - 

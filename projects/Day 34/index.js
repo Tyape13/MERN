@@ -1,7 +1,9 @@
 const express = require("express");
 const app = express();
-const port = 8080;
+const port = 3000;
 const path = require("path");
+
+// i need to restart the server every time.
 
 app.use(express.urlencoded({extended: true}));
 // express will understand every request using this code
@@ -12,8 +14,13 @@ app.set("view engine", "ejs");
 app.set("views", path.join(__dirname, "views"));
 // just setting view folder complete path
 
-app.set(express.static(path.join(__dirname, "public")));
-// i have no idea what's this for.
+app.use(express.static(path.join(__dirname, "public")));
+// this makes the system to access public and css file.
+
+
+app.get("/posts/new", (req, res) =>{
+    res.render("new.ejs")
+});
 
 
 let posts = [
@@ -27,18 +34,21 @@ let posts = [
     },
     {
         username: "heroMan",
-        content: "I love Tailung... bro was content until his master filled his head with destiny shit and bro felt pressure to live up to it and ended up angry, bro is human not snow leopard"
+        content: "Tailung, it's Understandable. Sameer, I understand Me, I understand hatred and sadness it's alright i work now."
     }
 ];
 
+app.get("/posts", (req, res)=>{
+    res.render("index.ejs", {posts});
+})
 
 app.get('/', (req, res) =>{
-    console.log("serving working well!");
+    res.send("serving working well!");
 })
 
 
 app.listen(port, ()=>{
-    console.log("Listening to port: 8080");
+    console.log(`Listening on port: ${port}`);
 })
 // i think i need to write on top than below about the code. 
 
