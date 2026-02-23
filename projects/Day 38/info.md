@@ -8,3 +8,13 @@ PLAN:
 write code for mySQL ones but it won't work but everything other than that i will learn and need to work.
 
 ### 1 - MONGO SHELL
+we need to create folder then only mongod command works. 
+bro every problems are being solved by ai so why should we learn each steps, right. but we need to know fundamentals and not completely trust ai. right? idk
+
+`md C:\data\db`
+then `mongod` command start to work
+
+she talks about mongo shell but we don't need this we use code and directly connect or we use mongodb compass. no need for shell. 
+
+### 2 - aaba voli. 
+cause i 
