@@ -1,0 +1,20 @@
+<% layout('/layouts/boilerplates') %>
+
+<body>
+    <h3>Adding New Data in Database after hardcoded data</h3>
+    <form action="/listings" method="POST">
+        <input type="text" name="listing[title]" placeholder="enter title">
+        <br>
+        <textarea type="text" name="listing[description]" placeholder="enter description"> </textarea>
+        <br>
+        <input name="listing[image]" placeholder="paste image url link" type="text">
+        <br>
+        <input name="listing[price]" placeholder="enter price(Rs)" type="number">
+        <br>
+        <input name="listing[location]" placeholder="enter location name" type="text">
+        <br>
+        <input name="listing[country]" placeholder="enter country name" type="text">
+        <br>
+        <button>Add</button>
+    </form>
+</body>

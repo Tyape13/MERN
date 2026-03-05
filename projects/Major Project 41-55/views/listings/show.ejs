@@ -1,0 +1,24 @@
+<% layout('/layouts/boilerplates') %>
+
+<body>
+    <h3>Listing Details:</h3>
+    <ul>
+        <li> Title: <%= listing.title %> </li>
+        <li> Description: <%= listing.description %> </li>
+
+        <li> Price: Rs <%= listing.price.toLocaleString('en-IN') %> </li> 
+        <!-- toLocaleString() this function gives comma according to our standard to prices. -->
+
+        <li> Image: <br> <img src="<%= listing.image %>" alt="image" style="width: 400px;"> </li>
+        <!-- i passed asadfasdf in image section, it wasn't nothing so value was assigned and it tried to fetch this in local storage and that's how it was giving me error in console. i updated to new code in Listing Schema. BRO simple thing causing this much bugs.... -->
+
+
+
+        <li> Location: <%= listing.location %> </li>
+        <li> Country: <%= listing.country %> </li>
+        <br>
+                    <a href="/listings/<%= listing._id %>/edit" method="GET"> Edit </a>
+                    <br> 
+                    <form action="/listings/<%= listing._id %>?_method=delete" method="POST"> <button>Delete</button></form>
+    </ul>
+</body>

@@ -1,0 +1,21 @@
+<% layout('/layouts/boilerplates') %>
+
+<body>
+    <h3>Editing Listing: <%= listing.title %></h3>
+    <form action="/listings/<%= listing._id %>?_method=put" method="post">
+        <!-- we need to download package called method-override then use '?_method=put' -->
+        <input type="text" name="listing[title]" placeholder="enter title">
+        <br>
+        <textarea type="text" name="listing[description]" placeholder="enter description"> </textarea>
+        <br>
+        <input name="listing[image]" placeholder="paste image url link" type="text">
+        <br>
+        <input name="listing[price]" placeholder="enter price(Rs)" type="number">
+        <br>
+        <input name="listing[location]" placeholder="enter location name" type="text">
+        <br>
+        <input name="listing[country]" placeholder="enter country name" type="text">
+        <br>
+        <button>Update</button>
+    </form>
+</body> 

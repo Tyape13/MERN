@@ -1,5 +1,6 @@
 const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
+// SCHEMA mean that it's blueprint of our database. it defines the structure of our database. Just like Column in SQL Db.
 
 const listingSchema = new Schema({
     title:{
@@ -8,10 +9,10 @@ const listingSchema = new Schema({
     },
     description: String,
     image:{
-        default: "https://images.unsplash.com/photo-1707339054608-a3cdff14fd3f?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",        
-        type:String,
-        set: (v) => v===""? "https://images.unsplash.com/photo-1707339054608-a3cdff14fd3f?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D":v, // this is ternary operator
-    },
+    default: "https://images.unsplash.com/photo-1707339054608-a3cdff14fd3f?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",        
+    type: String,
+    set: (v) => (v === "" || !v.startsWith("http")) ? "https://images.unsplash.com/photo-1707339054608-a3cdff14fd3f?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" : v,
+},
     price: Number,
     location: String,
     country: String,
