@@ -24,7 +24,7 @@ module.exports = asyncWrap;
 // Look at this line from the fix I suggested:
 // Promise.resolve(fn(req, res, next)).catch(next);
 
-// If the function fn is not an async function (meaning it doesn't return a Promise), a standard .catch() would throw a "TypeError: .catch is not a function" and crash your server.
+// If the function fn is not an async function (meaning it doesn't return a Promise), a standard .catch() would throw a "TypeError: .catch is not a function" and  your server.
 
 // By wrapping it in Promise.resolve(), you are saying:
 
