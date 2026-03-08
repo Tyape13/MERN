@@ -135,9 +135,10 @@ app.get("/listings", asyncWrap(async (req, res) =>{
 
 
 // if any route is not defined above it, then this route will match it and send a 404 error.
-app.all("*", (req, res) =>{
+app.use((req, res, next) =>{
+    // the thing to learn is i need to master purano fundamental but use newer ways.
     next(new ExpressError(404, "Page Not Found"));
-    // this is a catch-all route that will match any route that is not defined above it. we use app.all() method to match all HTTP verbs and * to match all routes. we pass a new ExpressError with status code 404 and message "Page Not Found" to the next error handling middleware. this is good practice to have a catch-all route to handle 404 errors and send a proper response to the client instead of just sending a generic 404 page.
+    // this is a catch-all route that will match any route that is not defined above it. we use app.use() without a path to match all routes. we pass a new ExpressError with status code 404 and message "Page Not Found" to the next error handling middleware. this is good practice to have a catch-all route to handle 404 errors and send a proper response to the client instead of just sending a generic 404 page.
 });
 
 
