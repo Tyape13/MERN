@@ -14,6 +14,7 @@ when on same path.
 i think we could also do "./app.js"
 but idk sometimes when i try to connect different components from navbar again n again it goes ../../ and path goes wrong i need to learn that. 
 
+Edit: that's why path.join(__dirname, "public") this kinda code exists in express, idk about others. 
 
 ### 3 - Template Literals
 `` - this stupid thing beside number 1 in keyboard is called BACK TICK.
