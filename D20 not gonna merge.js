@@ -1,9 +1,9 @@
 const stud = {
-    name:"Sameer Ho Mug",
+    name:"Sameer Ho",
     age:22,
-    description:"Fuking Old Emotional Fool",
+    description:"Just a Man",
     idk() {
-        console.log(`${this.name}, Hero Raixa Kta but failure ko dherai chinta linxa ZATTHAAA!!! Failure Nermro Vanne Belief Baseko xa mug ko, Pahile keai ko matlab gardaina thyo ahile lamo zasto dimakh khrb garera....budo vaiskyo. ZATHAA`);
+        console.log(`${this.name},`);
     },
     how() {
         console.log("how tf is this working no idk:function(){} but directly name only")
