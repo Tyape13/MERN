@@ -8,7 +8,9 @@ const ExpressError = require("./utils/expressError"); // this is a custom error 
 
 const listingRoutes = require("./routes/listing.js"); // this is the router for our listing routes, we will use this to handle all the routes related to listings and keep our app.js file cleaner and more organized. we will use this for all our listing routes.
 
-
+const passport = require('passport');
+const localStrategy = requrie("passport-local");
+const User = require("./models/user.js");
 
 app.engine("ejs", ejsMate); // this is how we use ejs mate layout engine, we pass the engine name and the package we installed.
 
