@@ -1,4 +1,3 @@
-I will pull first then add new changes from home computer cause i don't think this remote repo is up to date. 
 
 ### 1 - Authentication vs Authorization
 whenever user needs to login and sign up, this concept comes to play.
@@ -38,7 +37,7 @@ nodejs already has a package that uses salting stuff or other things too.
 package name is called 'passport'
 
 ### 5 - Passport Library
-npm i password
+npm i passport
 npm i passport-local
 npm i passport-local-mongoose
 
@@ -60,25 +59,29 @@ it is said that we need to use SESSION STUFF but we didn't do things from 49.md 
 app.use(session({sessionOptions}));
 app.use(flash());
 
-new codes:
+new codes in app.js:
 app.use(passport.initialize()); // middleware that initializes
 app.use(passport.session()); 
 // web app needs ability to identify users as they browse from page to page, this series of requests and responses and each associated with the same user, is known as session.
 
 passport.use(new LocalStrategy(User.authenticate()));
+- passport.use(): This tells the Passport middleware, "Hey, I want to use a specific method for authentication."
+- new LocalStrategy(...): This specifies that the method is the "Local" strategy—meaning you are checking credentials against your own database rather than an external provider like Google or Facebook.
+- User.authenticate(): This is the "magic" part. It is a static method usually provided by a plugin called passport-local-mongoose.
+
 
 When time comes i can master all these things in separate folder, then implement into main app. 
 for now knowing is enough. 
 we don't need to implement whole logic, we just need to learn PACKAGE, that's it bro.
 
 
-serializeUser()
-deserializeUser()
+serializeUser() - storing user information in session
+deserializeUser() - removing user information from session
 
 some concept regarding this.
 
 
-### 8 - Demo User
+### 8 - Demo User ( I need to learn new updates packages cause syntax haru is diff)
 let's add demo user.
 i m not adding it but code is:
 
@@ -91,7 +94,17 @@ app.get("/createdemo", async(req, res) =>{
     res.send(registeredUser);
 });
 
+register is convienent method, it will check if username is unique or not, it will save hashed and salted password. idk how will it verify salt when it's not manually given or something cause we might be able to give it through .env file.
+
 Legends say that we don't even need to connect to mongoose rather just user.register does all the work saving hash itself or something after adding salt. 
+
+
+Note: it didn't worked cause mongodb wasn't working and in app we didn't connect it anywhere i think.
+
+
+
+# wasn't important after this i think. 
+
 
 ### 9 - Signup Form creating stuff.
 using get reuqest and doing stuff.

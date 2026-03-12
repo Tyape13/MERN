@@ -53,3 +53,36 @@ yeah.
 
 ### 8 - Cookie in sessionOption
 Great Information.
+cookies can save session with no expiration data. Damn. i didn't knew that. 
+so we set limit.
+expires directly set garna mileko xaina, 
+it is said to have no expiration date but idk dude if non-persistent cookies gets deleted once browser is exited.
+
+Cookie Expiry data put in sessionOptions:
+const sessionOptions = {
+    secret: "SuperSecretKey",
+    resave: false, 
+    saveUninitialized: true, 
+    cookie: {
+        expires:Date.now() + 7*24*60*60*1000, // current date with time in milliseconds. 
+        maxAge: 7*24*60*60*1000,
+        httpOnly: true, // just for security purposes and not significant for now.
+    }
+}
+
+
+### 9 - Implement Flash in Project.
+Let's just see video no need to implement, things i learned. idk. 
+
+
+### 10 - Flash Success Styling
+we just used ejs and bootstraps.
+idk.
+
+
+### 11 - Flash Failure Includes
+See when we delete some post and someone directly goes to URL LINK. we need to show something like it doesn't exists, 
+cause right now it shows ERRORS. 
+we need to test and Think of all the possibility.
+
+Just Normal concepts using if statements and other things. no new concepts.
